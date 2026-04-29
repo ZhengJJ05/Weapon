@@ -28,8 +28,8 @@ def encrypt_password(password):
 
 login_url = 'https://msapi.mju.edu.cn/basic/user/login/key'
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
-username = 'M252803013'
-password_list="word_list.txt"
+username = ''# 请输入学号
+password_list=""# 请输入字典路径
 schoolId=1
 sysNo="2nd_classroom'"
 
