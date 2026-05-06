@@ -7,7 +7,7 @@ import requests
 # AES 加密（和前端完全一样）
 def encrypt_password(password):
     # 前端固定密钥
-    key = b"rndAgtFzYJpyKlRY"
+    key = b"" #自行分析
     
     # 初始化 AES-ECB
     cipher = AES.new(key, AES.MODE_ECB)
@@ -31,7 +31,7 @@ UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 username = ''# 请输入学号
 password_list=""# 请输入字典路径
 schoolId=1
-sysNo="2nd_classroom'"
+sysNo="2nd_classroom"
 
 with open(password_list, "r", encoding="utf-8") as f:
     for pwd in f:
